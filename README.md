@@ -8,6 +8,21 @@ This is my Windows 10 setup. I hope it can be an example for you. I made this ju
 ## Screenshot
 ![Desktop1](Screenshot1.png)
 ![Desktop2](Screenshot2.png)
+
+## 📑 Table of Contents
+
+| 📚 Entry | ✨ App |
+|---------------------|------------|
+| Status Bar          | YASB |
+| App Launcher        | Flow Launcher |
+| Terminal            | Windows Terminal |
+| Browser             | Brave |
+| System Fetch        | Fastfetch |   
+| Shell Prompt        | Oh My Posh |
+| Audio Visualizer    | Cava |
+| File Explorer Mod   | ExplorerBlurMica |
+| Wallpaper            | WallpaperEngine|
+
 ## Credits
 - [SleepyCatHey](https://github.com/SleepyCatHey/Ultimate-Win11-Setup.git) — whkdrc Komorebi Shortcuts
 - [Gagandeeprai](https://github.com/Gagandeeprai/fastfetch-config.git) — Fastfetch config
