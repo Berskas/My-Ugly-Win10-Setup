@@ -1,0 +1,153 @@
+{
+"$schema": "https://github.com/fastfetch-cli/fastfetch/raw/dev/doc/json_schema.json",
+
+"logo": {
+"type": "builtin",
+"source": "windows",
+"width": 18,
+"padding": {
+"top": 1,
+"right": 3
+}
+},
+
+"display": {
+"separator": " : "
+},
+
+"modules": [
+
+
+{
+  "type": "title",
+  "format": "{user-name}@{host-name}",
+  "color": {
+    "user": "#F5C2E7",
+    "at": "#CDD6F4",
+    "host": "#89DCEB"
+  }
+},
+
+{
+  "type": "datetime",
+  "key": "Date & Time"
+},
+
+"break",
+
+{ "type": "os", "key": "OS", "keyColor": "#89DCEB" },
+{ "type": "host", "key": "Host", "keyColor": "#F5C2E7" },
+{ "type": "kernel", "key": "Kernel", "keyColor": "#FAB387" },
+{ "type": "uptime", "key": "Uptime", "keyColor": "#F9E2AF" },
+
+"break",
+
+{ "type": "shell", "key": "Shell", "keyColor": "#A6E3A1" },
+{ "type": "terminal", "key": "Terminal", "keyColor": "#94E2D5" },
+
+"break",
+
+{ "type": "display", "key": "Display", "keyColor": "#A6E3A1" },
+{ "type": "cpu", "key": "CPU", "keyColor": "#F5C2E7" },
+{ "type": "gpu", "key": "GPU", "keyColor": "#FAB387" },
+
+{
+  "type": "memory",
+  "key": "RAM",
+  "keyColor": "#A6E3A1"
+},
+
+{
+  "type": "disk",
+  "key": "Disk",
+  "folders": "C:\\",
+  "keyColor": "#94E2D5"
+},
+
+{
+  "type": "battery",
+  "key": "Battery",
+  "keyColor": "#F9E2AF"
+},
+
+{
+  "type": "colors",
+  "symbol": "circle"
+},
+
+"break"
+
+]
+}
+
+// this is for custom asci image 
+
+/*  
+{
+  "$schema": "https://github.com/fastfetch-cli/fastfetch/raw/dev/doc/json_schema.json",
+  "logo": {
+    "type": "file",
+    "source": "C:/Users/<Your-User-Name>/.config/fastfetch/ascii.txt",
+    "color": {
+      "1": "#F5E0DC",
+      "2": "#F2CDCD",
+      "3": "#F5C2E7",
+      "4": "#FAB387",
+      "5": "#F9E2AF",
+      "6": "#A6E3A1",
+      "7": "#94E2D5",
+      "8": "#89DCEB",
+      "9": "#74C7EC"
+    },
+    "padding": {
+      "top": 1,
+      "right": 3
+    }
+  },
+  "display": {
+    "separator": " "
+  },
+  "modules": [
+    "break",
+    {
+      "type": "title",
+      "color": {
+        "user": "#F5C2E7",
+        "at": "#CDD6F4",
+        "host": "#89DCEB"
+      }
+    },
+    "break",
+    {
+      "type": "os",
+      "key": "",
+      "keyColor": "#89DCEB"
+    },
+    {
+      "type": "cpu",
+      "key": "",
+      "keyColor": "#F5C2E7"
+    },
+    {
+      "type": "board",
+      "key": "󰚗",
+      "keyColor": "#FAB387"
+    },
+    {
+      "type": "memory",
+      "key": "",
+      "keyColor": "#A6E3A1",
+      "format": "{used} / {total} ({percentage})"
+    },
+    {
+      "type": "disk",
+      "key": "",
+      "keyColor": "#94E2D5"
+    },
+    "break",
+    {
+      "type": "colors",
+      "symbol": "circle"
+    }
+  ]
+}*/
