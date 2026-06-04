@@ -9,5 +9,5 @@ This is my Windows 10 setup. I hope it can be an example for you. I made this ju
 ![Desktop1](Screenshot1.png)
 ![Desktop2](Screenshot2.png)
 ## Credits
-- [SleepyCatHey]https://github.com/SleepyCatHey/Ultimate-Win11-Setup.git) — whkdrc Komorebi Shortcuts
+- [SleepyCatHey](https://github.com/SleepyCatHey/Ultimate-Win11-Setup.git) — whkdrc Komorebi Shortcuts
 - [Gagandeeprai](https://github.com/Gagandeeprai/fastfetch-config.git) — Fastfetch config
