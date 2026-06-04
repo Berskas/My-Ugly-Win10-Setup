@@ -20,7 +20,6 @@ This is my Windows 10 setup. I hope it can be an example for you. I made this ju
 | System Fetch        | Fastfetch |   
 | Shell Prompt        | Oh My Posh |
 | Audio Visualizer    | Cava |
-| File Explorer Mod   | ExplorerBlurMica |
 | Wallpaper            | WallpaperEngine|
 
 ## Credits
